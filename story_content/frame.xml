@@ -1,0 +1,1814 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="false">
+            <options>
+              <option name="title_text" value="MEDIA PEMBELAJARAN" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="false" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="elapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="false" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Open Sans Condensed Light" />
+            </options>
+          </option>
+          <option name="settings" value="false" />
+          <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00000000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00000000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00000000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00000000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00000000000">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npnxnanbnsnfns00000000001">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x757575" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1D1D1D" alpha="100" stop="0" />
+                <color rgb="0x0B0B0B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x727272" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCCCCCC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1D1D1D" alpha="100" stop="0" />
+                <color rgb="0x0B0B0B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A2A2A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E0E0E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x030303" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3A3A3A" alpha="100" stop="0" />
+                <color rgb="0x0C0C0C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x141414" alpha="100" stop="0" />
+                <color rgb="0x323232" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+                <color rgb="0x141414" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F3F3F" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x878787" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x343434" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F3F3F" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3D3D3D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x202020" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3D3D3D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2C2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x757575" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x343434" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x363636" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2C2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x525454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x727272" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x242424" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1A1A1A" alpha="100" stop="0" />
+                <color rgb="0x313131" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x030303" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+                <color rgb="0x141414" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEB9471" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3A3A3A" alpha="100" stop="0" />
+                <color rgb="0x0C0C0C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x202020" alpha="100" stop="0" />
+                <color rgb="0x161616" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x595959" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5A5A5A" alpha="100" stop="0" />
+                <color rgb="0x4A4A4A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B4B4B" alpha="100" stop="0" />
+                <color rgb="0x3C3C3C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x494949" alpha="100" stop="0" />
+                <color rgb="0x494949" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+                <color rgb="0x363636" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E0E0E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x242424" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x9C9C9C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x161616" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x030303" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3A3A3A" alpha="100" stop="0" />
+                <color rgb="0x0C0C0C" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x141414" alpha="100" stop="0" />
+                <color rgb="0x323232" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+                <color rgb="0x141414" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x252525" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0E0E0E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1B1B1B" alpha="100" stop="0" />
+                <color rgb="0x0A0A0A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+                <color rgb="0x292929" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1D1D1D" alpha="100" stop="0" />
+                <color rgb="0x0B0B0B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1D1D1D" alpha="100" stop="0" />
+                <color rgb="0x0B0B0B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x1C1C1C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5A5A5A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4C4C4C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x494949" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x313131" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npnxnanbnsnfns00000000001">
+      <string id="three_image_progress_audio">kemajuan</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">kamera bergerak ke bawah</string>
+      <string id="three_image_camera_left">kamera bergerak ke kiri</string>
+      <string id="three_image_camera_right">kamera bergerak ke kanan</string>
+      <string id="three_image_camera_up">kamera bergerak ke atas</string>
+      <string id="three_image_interaction_free">mode jelajah bebas</string>
+      <string id="three_image_interaction_guided">mode tur terpandu</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Gunakan tombol w, a, s, dan d untuk memutar gambar 360 derajat. Tekan tombol tab untuk berpindah ke penanda dan hotspot interaktif.</string>
+      <string id="three_image_interaction">interaksi gambar 360 derajat</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">penanda</string>
+      <string id="three_image_items">barang-barang</string>
+      <string id="three_image_interaction_next">selanjutnya</string>
+      <string id="three_image_pause_audio">jeda audio</string>
+      <string id="three_image_pause_video">jeda video</string>
+      <string id="three_image_play_audio">putar audio</string>
+      <string id="three_image_play_video">putar video</string>
+      <string id="three_image_interaction_prev">sebelumnya</string>
+      <string id="three_image_visited">dikunjungi</string>
+      <string id="three_image_of">dari</string>
+      <string id="three_image_count_of_total">%count% dari %total%</string>
+      <string id="acc_three_image_step_count_of_total">hitungan %count% dari %total%</string>
+      <string id="three_image_item">barang</string>
+      <string id="three_image_interaction_step">langkah</string>
+      <string id="three_image_tooltip">keterangan alat</string>
+      <string id="three_image_total_items">%total% item-item</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_progress_video">kemajuan</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">volume video</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% dari %total% item-item dikunjungi</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% dari %total% item dikunjungi</string>
+      <string id="three_image_count_of_total_visited">%count% dari %total% dikunjungi</string>
+      <string id="accessible_text">Teks terakses</string>
+      <string id="acc_enter_fullscreen">Masuk ke mode layar penuh</string>
+      <string id="acc_exit_fullscreen">Keluar dari layar penuh</string>
+      <string id="keyboardshortcuts_lower">Pintasan Keyboard</string>
+      <string id="zoom_to_fit">Perbesar sesuai ukuran</string>
+      <string id="modern_video_settings_close">pengaturan video dekat</string>
+      <string id="acc_modern_video_fullscreen">video layar penuh</string>
+      <string id="modern_video_playback_settings">Pengaturan Pemutaran Video</string>
+      <string id="modern_video_captions_off">Mati</string>
+      <string id="modern_video_captions_on">Nyala</string>
+      <string id="modern_video_captions_label">Keterangan</string>
+      <string id="acc_modern_video_settings">pengaturan video</string>
+      <string id="acc_modern_video_mute">bisukan video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">jeda video</string>
+      <string id="acc_modern_video_pip">gambar-dalam-gambar</string>
+      <string id="acc_modern_video_play">putar video</string>
+      <string id="modern_video_playback_speed_title">Kecepatan Pemutaran</string>
+      <string id="acc_modern_video_captions">keterangan video</string>
+      <string id="acc_modern_video_playback_speed">kecepatan pemutaran</string>
+      <string id="acc_modern_video_volume">volume video</string>
+      <string id="acc_active">aktif</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Centang untuk disertakan</string>
+      <string id="clear">Hapus dan kembali ke Menu</string>
+      <string id="close">Tutup</string>
+      <string id="acc_closed_captions">Takarir tertutup. Tekan tombol spasi untuk mengaktifkan dan menonaktifkan takarir.</string>
+      <string id="closed_captions_tip">Alihkan teks</string>
+      <string id="continue">Lanjutkan</string>
+      <string id="continueresponsive">Lanjutkan</string>
+      <string id="playback_speed_title">Kecepatan Pemutaran</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="acc_playback_speed">kecepatan pemutaran</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Aktifkan pintasan keyboard</string>
+      <string id="enter_key">Masuk</string>
+      <string id="exit">Keluar</string>
+      <string id="filter">Filter</string>
+      <string id="finish">SELESAI</string>
+      <string id="acc_finish">selesai</string>
+      <string id="definition">Definisi</string>
+      <string id="acc_definition">definisi</string>
+      <string id="glossary">Daftar istilah</string>
+      <string id="terms">Istilah</string>
+      <string id="progress_hour">jam</string>
+      <string id="progress_hours">jam</string>
+      <string id="action">Tindakan</string>
+      <string id="keyboardshortcuts">Pintasan Keyboard</string>
+      <string id="shortcuthelp">Daftar pintasan keyboard</string>
+      <string id="mute_shortcut">Bisukan / Bunyikan</string>
+      <string id="next_shortcut">Salindia berikutnya</string>
+      <string id="playpause_shortcut">Putar /Jeda</string>
+      <string id="previous_shortcut">Salindia sebelumnya</string>
+      <string id="replay_shortcut">Putar ulang salindia</string>
+      <string id="shortcut">Pintasan</string>
+      <string id="submit_shortcut">Kirim salindia</string>
+      <string id="acctext_shortcut">Teks terakses tombol dwiarah</string>
+      <string id="closedcaptions_shortcut">Teks tertutup tombol dwiarah</string>
+      <string id="fullscreen_shortcut">Alihkan mode layar penuh</string>
+      <string id="togglezoom">Ubah zoom agar sesuai</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Putar perangkat Anda</string>
+      <string id="progress_minute">menit</string>
+      <string id="progress_minutes">menit</string>
+      <string id="mute_tip">Matikan Suara</string>
+      <string id="next">BERIKUTNYA</string>
+      <string id="acc_next">berikutnya</string>
+      <string id="next_slide_tip">Salindia berikutnya</string>
+      <string id="transcript_chk">Catatan</string>
+      <string id="transcript">Catatan</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">Info lengkap</string>
+      <string id="closed_captions">Takarir</string>
+      <string id="acc_pause">jeda</string>
+      <string id="pause_tip">Jeda</string>
+      <string id="acc_play">putar</string>
+      <string id="play_tip">Putar</string>
+      <string id="send_an_email">Kirim email</string>
+      <string id="prev">SEBELUMNYA</string>
+      <string id="acc_previous">sebelumnya</string>
+      <string id="previous_slide_tip">Salindia sebelumnya</string>
+      <string id="question_list">Daftar Pertanyaan</string>
+      <string id="replay_tip">Putar Ulang</string>
+      <string id="acc_replay">ulangi</string>
+      <string id="resources">Sumber informasi</string>
+      <string id="acc_resources">sumber informasi</string>
+      <string id="restart">Mulai ulang</string>
+      <string id="resume">Lanjutkan</string>
+      <string id="acc_locked">terkunci</string>
+      <string id="acc_search_input">cari</string>
+      <string id="search_toggle">Cari</string>
+      <string id="sidebar_toggle">Tombol Alih Bilah Samping</string>
+      <string id="acc_slide_progress">kemajuan slide</string>
+      <string id="desktop_start">Mulai Kursus</string>
+      <string id="mobile_start">Mulai Kursus</string>
+      <string id="acc_visited">dikunjungi</string>
+      <string id="search">Cari...</string>
+      <string id="search_in">Cari di:</string>
+      <string id="search_results">Hasil Pencarian</string>
+      <string id="progress_second">detik</string>
+      <string id="progress_seconds">detik</string>
+      <string id="settings_tip">Pengaturan</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Kembali ke atas</string>
+      <string id="slide_text_chk">Teks Slide</string>
+      <string id="spacebar_key">Spasi</string>
+      <string id="streaming_video_local_playback_learn_more">Ketahui lebih lanjut</string>
+      <string id="streaming_video_local_playback_republish">Untuk menonton video ini, gunakan fitur pratinjau di Storyline 360, unggah hasil publikasi Anda ke server, publikasikan ke Review 360, atau alihkan ke kualitas video statis.</string>
+      <string id="streaming_video_local_playback_title">Video streaming tidak tersedia untuk pemutaran lokal.</string>
+      <string id="submitall">KIRIM SEMUA</string>
+      <string id="acc_submitall">kirim semua</string>
+      <string id="submit">KIRIM</string>
+      <string id="acc_submit">kirim</string>
+      <string id="submit_tip">Kirim</string>
+      <string id="unmute_tip">Nyalakan Suara</string>
+      <string id="acc_volume">volume suara</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6d0u4RjL1jy" displaytext="MENU AWAL" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6d0u4RjL1jy.5VmnOZz2Xvv" displaytext="1] HALAMAN DEPAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6d0u4RjL1jy.61GVOtONRN3" displaytext="2] LOGIN" expand="false" type="slide" />
+            <slidelink slideid="_player.6d0u4RjL1jy.6YHZWBfDOB1" displaytext="3] MENU UTAMA" expand="false" type="slide" />
+            <slidelink slideid="_player.6d0u4RjL1jy.6Lu2NHWtqw1" displaytext="4] INFORMASI PEMBELAJARAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6d0u4RjL1jy.5phH34PG1Xj" displaytext="4] MATERI PEMBELAJARAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6d0u4RjL1jy.5ZHhAdikYPF" displaytext="4] QUIZ DAN SOAL" expand="false" type="slide" />
+            <slidelink slideid="_player.6d0u4RjL1jy.5aJ4bPIxere" displaytext="4] PANDUAN DAN PROFIL" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6kEj3RYcKEf" displaytext="MATERI PEMBELAJARAN" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6kEj3RYcKEf.5sBOTRpSID7" displaytext="4] MATERI PEMBELAJARAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6kNuk6xezSQ" displaytext="5] PENGENALAN DAN PELUANG BISNIS KONSTRUKSI PERUMAHAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6AIPCBSdi9l" displaytext="5] K3LH DAN BUDAYA KERJA INDUSTRI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6r7kNIO5yFw" displaytext="5] K3LH DAN BUDAYA KERJA INDUSTRI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5Y0k39vQvPU" displaytext="5] MATERIAL BANGUNAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5fsFM79Ulyb" displaytext="5] JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6awrYijsRK6" displaytext="5] JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6pefaTMlnNS" displaytext="6] PENDAHULUAN PPBK" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5gU1ziaCOM0" displaytext="6] KONFIRMASI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6obk40xxN6q" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6gnkpdiarac" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5sdtZzZiiFg" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.698EurJc7WC" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6RL75iT8qC6" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5utB2VUC9Q1" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5WW4gNColOa" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6TGRf6rfFnu" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5pSBkyMtoNz" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6326dB6LS2o" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6KPEdVX4R9q" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5kMLHCB2Jsw" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6JXSfkgx79f" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5yiDA0ltDCH" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6ci6HiQUGQS" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6jVLxmAB0wL" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6dQnzmn0H8L" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6gb89GavPhF" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6iXoHudhFap" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5jcSwJrhth9" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6QpuWgofM3j" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5iET4tpmuhE" displaytext="6] PENDAHULUAN K3LH" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5vDIfxDxL78" displaytext="6] KONFIRMASI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6njcfr9fwLG" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6ijmEMmUTvG" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5jz5dcA4Ikr" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6Ki9gEWEFxH" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5mqSNfF6C4J" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5W40sGgoAJS" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5ZpcoREyyTb" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6q1q9ruv4WQ" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6rKpAvtmy8z" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5hwZLnUKxvE" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5pSbdX6aiyI" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5WoRtp4rOM4" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.69xJdle9vlb" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5sWVzljGgMK" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.62oNMgU4dVa" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5j7Zq1kX6q5" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5gNuo4t0U2H" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6PiEU9ulidR" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6pXupKKmGHH" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5chofk3MwQC" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6ApkyvPdqn8" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6hobFiyTtFP" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6e5j4In56am" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6Jy6opadQMV" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.67pUjTipr64" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6d4mjXHSHoX" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5fvyAc6uhun" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.62C7WDRzhZk" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6dVlV4uxZX6" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5lgkWGYqF5g" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6rJgZ9UiXgl" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6b2ONSMfRfa" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6BOrlHnSKzC" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6WvfBQkVVVB" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5t313YI79Xp" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5sNYFllmexg" displaytext="APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6MI47nRwdOv" displaytext="6] PENDAHULUAN MATERIAL" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6jwDAGqljPV" displaytext="7] KONFIRMASI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5m5Ry3ckX3D" displaytext="8] APERSEPSI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5Xp4Pmgi3w4" displaytext="6] MACAM MATERIAL" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5zskBdwrFPG" displaytext="6] MACAM MATERIAL" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6fPLAvPiAcA" displaytext="6] BETON" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6gQX4BSZQ5d" displaytext="6] PENDAHULUAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6RNnOuea9GG" displaytext="6] PENDAHULUAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6kYiEQoYhuy" displaytext="6] PENDAHULUAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.63w2S3crtfu" displaytext="6] PEKERJAAN LEVELING" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6eSd86vOBN1" displaytext="6] PEKERJAAN LEVELING" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6diwWHCjDZY" displaytext="6] PEKERJAAN LEVELING" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6dsPytTcBrM" displaytext="6] PEKERJAAN LEVELING" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6LfnRoaHxzY" displaytext="6] PEKERJAAN LEVELING" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6Jv9dyapNh6" displaytext="6] PEKERJAAN GALIAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6e96xBBhLd0" displaytext="6] PEKERJAAN GALIAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5hcNtHpTGz7" displaytext="6] PEKERJAAN GALIAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6Ebv2D95ohd" displaytext="6] PEKERJAAN GALIAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5Z8SHeA9Iju" displaytext="6] PEKERJAAN GALIAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.68zDsadeQy1" displaytext="6] PEKERJAAN BETON BERTULANG" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.67mw0a3Sb5N" displaytext="6] PEKERJAAN BETON BERTULANG" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5yr4InvD7wD" displaytext="6] PEKERJAAN BETON BERTULANG" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6UiKXOnOrES" displaytext="6] PEKERJAAN BETON BERTULANG" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5hwiNxHb9SR" displaytext="6] PEKERJAAN BETON BERTULANG" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5XINdOriMId" displaytext="6] PEKERJAAN DINDING" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6cEGznynnf6" displaytext="6] PEKERJAAN DINDING" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5lufWq7fzxE" displaytext="6] PEKERJAAN DINDING" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5tosXOOV2vk" displaytext="6] PEKERJAAN DINDING" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5wFPAgrHj7S" displaytext="6] PEKERJAAN DINDING" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5oagHoB4niO" displaytext="6] PEKERJAAN PLESTERAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5euJvUOS6dZ" displaytext="6] PEKERJAAN PLESTERAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6mrmaIo5cNa" displaytext="6] PEKERJAAN PLESTERAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6XK5Of6B1bH" displaytext="6] PEKERJAAN PLESTERAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5p277dNAXIA" displaytext="6] PEKERJAAN PLESTERAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5iNV1xS47JQ" displaytext="6] PEKERJAAN LANTAI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.60QyVQFRPqN" displaytext="6] PEKERJAAN LANTAI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5r0V7ioTZcz" displaytext="6] PEKERJAAN LANTAI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6cOyNrHGg0v" displaytext="6] PEKERJAAN LANTAI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5fyrjuTvSFg" displaytext="6] PEKERJAAN LANTAI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6Ts2HYqSX0P" displaytext="6] PEKERJAAN KUSEN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5uLUqkdpSKw" displaytext="6] PEKERJAAN KUSEN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5XGvfLHTFRV" displaytext="6] PEKERJAAN KUSEN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6ZhObDiWmep" displaytext="6] PEKERJAAN KUSEN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5odTB0DApoG" displaytext="6] PEKERJAAN KUSEN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5xfGOdvgFWJ" displaytext="6] PEKERJAAN ATAP" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6MsWornKTEZ" displaytext="6] PEKERJAAN ATAP" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6Xy1GjZZjki" displaytext="6] PEKERJAAN ATAP" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.687EJFsxTFz" displaytext="6] PEKERJAAN ATAP" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5yjctjdiyRb" displaytext="6] PEKERJAAN ATAP" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.68sLPcP3lnz" displaytext="6] PEKERJAAN PLAFON" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5wXXmDr6DOS" displaytext="6] PEKERJAAN PLAFON" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5m0Keqyceh4" displaytext="6] PEKERJAAN PLAFON" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5vwEnYz6GEy" displaytext="6] PEKERJAAN PLAFON" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6V0rb43fqz5" displaytext="6] PEKERJAAN PLAFON" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5svh170fYto" displaytext="6] PEKERJAAN CAT" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6p6Z0IpCT2e" displaytext="6] PEKERJAAN CAT" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.66ZBb4Vp9dS" displaytext="6] PEKERJAAN CAT" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6prGqxRKWQZ" displaytext="6] PEKERJAAN CAT" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5d6Whwcj7Km" displaytext="6] PEKERJAAN CAT" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5rFn9HXQdmx" displaytext="6] PEKERJAAN PIPA" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6DVHuFrYVdQ" displaytext="6] PEKERJAAN PIPA" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6q0fOzr6Q0q" displaytext="6] PEKERJAAN PIPA" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6drpCZ8zSxP" displaytext="6] PEKERJAAN PIPA" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5qEW0wg4Kjv" displaytext="6] PEKERJAAN PIPA" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5j6TVaqEf60" displaytext="6] PEKERJAAN LISTRIK" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5u3N9xzBPFB" displaytext="6] PEKERJAAN LISTRIK" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6kc3mo3Kdc0" displaytext="6] PEKERJAAN LISTRIK" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6Ho51JhXDAr" displaytext="6] PEKERJAAN LISTRIK" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6Y5bzmF86Tr" displaytext="6] PEKERJAAN LISTRIK" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6QvTUApoGTS" displaytext="7] SEMEN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5mcPETePwN4" displaytext="7] SEMEN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5gUTxqikKkO" displaytext="8] PERTANYAAN PEMATIK" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6qMhwC9RxYa" displaytext="9] KESIMPULAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5cXez2tNA0D" displaytext="10] PENUTUP" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6beaDblyYJk" displaytext="7] PASIR" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6ExUfA39y28" displaytext="7] PASIR" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5fY7TgQukXX" displaytext="7] PASIR" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6r7TtG4ysqP" displaytext="7] PASIR" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5eCjMZ8EwCI" displaytext="7] PASIR" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5ZhWgqIGH7W" displaytext="7] BATA MERAH" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5xfpWyG5VHs" displaytext="7] AGREGAT KASAR" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6mCPG5d2Io1" displaytext="7] AGREGAT KASAR" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6UKOxrgn8Qc" displaytext="7] AGREGAT KASAR" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6o47BZz9J4w" displaytext="7] AGREGAT KASAR" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5j5zQwSqfD3" displaytext="7] AGREGAT KASAR" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6dyr1XCMm2O" displaytext="7] BATA MERAH" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6a7YakgADS9" displaytext="7] BATA MERAH" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6Pleu9Evotd" displaytext="7] BATA MERAH" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6WNHW7EL0Zl" displaytext="7] BATA MERAH" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6qrfyBOmlGo" displaytext="7] BATAKO" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.67YU2gX3uZG" displaytext="7] BATAKO" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5x9CkOd0PCP" displaytext="7] BATAKO" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.65dzsbKmnqS" displaytext="7] BATAKO" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6adXWrhPG43" displaytext="7] BATAKO" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6E6ynxkeMY1" displaytext="7] BATA RINGAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6akQe6KToLL" displaytext="7] BATA RINGAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6WaNsLEcmzD" displaytext="7] BATA RINGAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6I40QgioM0f" displaytext="7] BATA RINGAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5cJF79VZnG6" displaytext="7] BATA RINGAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6hkObk6AM2y" displaytext="7] KERAMIK" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5fbqcQ7C2oQ" displaytext="7] KERAMIK" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5bg5Qox7UP6" displaytext="7] KERAMIK" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6GOCPfLOL0C" displaytext="7] KERAMIK" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5r9SQLPxE4h" displaytext="7] KERAMIK" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5vpFC3azhvL" displaytext="7] GENTING" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6GWO5rUU5xj" displaytext="7] GENTING" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.61gSjyJNMrr" displaytext="7] GENTING" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6Nw5cKqUqKO" displaytext="7] GENTING" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6EJu9hGSMuC" displaytext="7] GENTING" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5oWHKTHwQGH" displaytext="7] KAYU" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5i2gPV7pRu4" displaytext="7] KAYU" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5b8OgSrYXht" displaytext="7] KAYU" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6BMvbdmcFvF" displaytext="7] KAYU" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5hCxFbdeN42" displaytext="7] KAYU" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6pAMzMrvviy" displaytext="7] KACA" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.670h0rjYhDB" displaytext="7] KACA" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5aSZ17qXGZL" displaytext="7] KACA" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6mvmeN6NAd0" displaytext="7] KACA" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6U163h5gL7C" displaytext="7] KACA" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6emMpzA8YGD" displaytext="7] BESI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.612kHAu75dl" displaytext="7] BESI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5i8y5ClWLl1" displaytext="7] BESI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5vrUjpUXmDR" displaytext="7] BESI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5ZYfjTBTb0M" displaytext="7] BESI" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6TQL9TDSZIX" displaytext="7] CAT" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6XwnrHKrXJB" displaytext="7] CAT" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5V9nJLRfhUv" displaytext="7] CAT" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5flAHPI4qrx" displaytext="7] CAT" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5yyJlebHV9A" displaytext="7] CAT" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6An4XNOQczt" displaytext="7] PVC" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5ow2vMVjrXA" displaytext="7] PVC" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6Wzhn973zXS" displaytext="7] PVC" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6OY6xcFVHJO" displaytext="7] PVC" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6iE00W6i4kK" displaytext="7] PVC" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.60EwquOJFPz" displaytext="7] PENGERTIAN BETON" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5VUeFsWenle" displaytext="7] PENGERTIAN BETON" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6e1ds3qS2aA" displaytext="7] PENGERTIAN BETON" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6ZVBLJMqmtJ" displaytext="7] PENGERTIAN BETON" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6SXaLnV5aVD" displaytext="7] PENGERTIAN BETON" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6iY3VwMBtsR" displaytext="7] MUTU BETON" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5ijnbC8n7vU" displaytext="7] MUTU BETON" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5eflHvrFUsB" displaytext="7] MUTU BETON" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6VFxmUbtyUx" displaytext="7] MUTU BETON" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5lzC8V0gPyK" displaytext="7] MUTU BETON" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6dmvqz2ycCT" displaytext="7] UNTUNG DAN RUGI BETON" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6JFwn3bylzl" displaytext="7] UNTUNG DAN RUGI BETON" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.5VEDcoHm8FW" displaytext="7] UNTUNG DAN RUGI BETON" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.65j3g2Zt9HX" displaytext="7] UNTUNG DAN RUGI BETON" expand="false" type="slide" />
+            <slidelink slideid="_player.6kEj3RYcKEf.6BJKPcSQT60" displaytext="7] UNTUNG DAN RUGI BETON" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6T6Ijm46iiN" displaytext="PANDUAN DAN PROFIL" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6T6Ijm46iiN.6hHN8JMP0ey" displaytext="4] PANDUAN DAN PROFIL" expand="false" type="slide" />
+            <slidelink slideid="_player.6T6Ijm46iiN.6VPodUp0zrD" displaytext="5] PANDUAN" expand="false" type="slide" />
+            <slidelink slideid="_player.6T6Ijm46iiN.5V6L8ryzVUA" displaytext="6] EBOOK" expand="false" type="slide" />
+            <slidelink slideid="_player.6T6Ijm46iiN.6JTQKv66T94" displaytext="5] PROFIL" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5qPq7lWhi6R" displaytext="QUIZ DAN SOAL" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5qPq7lWhi6R.6o71qpC1kvT" displaytext="4] QUIZ DAN SOAL" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5hagSujqY9o" displaytext="4] QUIZ DAN SOAL" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5kqUKjS59ur" displaytext="4] QUIZ DAN SOAL" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5cnMz8cJzQP" displaytext="4] QUIZ DAN SOAL" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6g5WOyhCVLm" displaytext="5] MATERIAL BANGUNAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6eHtT3kirML" displaytext="5] JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.63uiYlBekUf" displaytext="5] JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.63BzEEtcjoB" displaytext="5] JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6OzFQGv7gyI" displaytext="5] JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.69pxDsZdo7f" displaytext="5] JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5XqZRglvGhv" displaytext="5] JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5v7thF7Wwbc" displaytext="5] JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6pmwCMLTA15" displaytext="5] JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5gHKL7cbqUC" displaytext="5] JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6gdZATi2yrx" displaytext="5] JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6ih2Mm9L9T5" displaytext="5] JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5gHMiHkcCRL" displaytext="5] JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6kQTKalk4qp" displaytext="5] JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.62H1TR3QbkK" displaytext="5] JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6gmuQwdFVnl" displaytext="5] JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6C0GMX8hyNM" displaytext="6] QUIZ MACAM MATERIAL" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.66KRVoNRSUm" displaytext="6] QUIZ BETON" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6coNApoxCAu" displaytext="6] SOAL MATERIAL BANGUNAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5l7W5Ko06lI" displaytext="6] QUIZ PEKERJAAN LEVELING" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5YujhA1Knuo" displaytext="6] QUIZ PEKERJAAN GALIAN FONDASI" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5xpfvB0fruI" displaytext="6] QUIZ PEKERJAAN BETON BERTULANG" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6T0KJIJdZlp" displaytext="6] QUIZ PEKERJAAN DINDING" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6QmOhXOnvHw" displaytext="6] QUIZ PEKERJAAN PLESTERAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6nuQytSIErJ" displaytext="6] QUIZ PEKERJAAN LANTAI" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.68DVfErlekd" displaytext="6] QUIZ PEKERJAAN KUSEN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.61H4n9vif7w" displaytext="6] QUIZ PEKERJAAN ATAP" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5tnvnf4WXY8" displaytext="6] QUIZ PEKERJAAN PLAFON" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6WqNkkPWjne" displaytext="6] QUIZ PEKERJAAN CAT" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5gCNSpa4sSP" displaytext="6] QUIZ PEKERJAAN INSTALASI PIPA" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6etPxS54ovk" displaytext="6] QUIZ PEKERJAAN LISTRIK" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.60BInQdWPdn" displaytext="6] SOAL JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6ABVfCf9ELr" displaytext="6] SOAL JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6FAyiRm8Wse" displaytext="Jenis semen yang paling sering dijumpai di pasaran adalah " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5o8xKnjvbZg" displaytext="Dinding batu bata pada bangunan modern umumnya digunakan sebagai konstruksi apa?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6N99Yplk3DR" displaytext="Darimana agregat kasar seperti split diperoleh?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5rApKjr6aYh" displaytext="Beton merupakan campuran dari beberapa bahan berikut, kecuali…" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5hbuo0om2I9" displaytext="Apa bahan pengisi dalam pembuatan beton?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6Q1RTYRAgva" displaytext="Reaksi kimia antara semen dan air yang menyebabkan beton mengeras disebut…" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5xNuOR4RlkC" displaytext="Berapa kandungan volume dalam campuran beton pada umumnya?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5fiOwEQBAwz" displaytext="Apa material yang digunakan untuk membangun rumah?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5dD6tyiWisu" displaytext="Apa fungsi semen pada bahan bangunan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6eD2OMFOqCP" displaytext="Reaksi kimia antara semen dan air yang menyebabkan beton mengeras?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.67z3dOl9n9F" displaytext="Agregat halus pada beton biasanya berupa…" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6XRywfYyLYL" displaytext="Berapa perbandingan campuran beton yang umum digunakan untuk rumah sederhana?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6qs6QMkYYDa" displaytext="Berapa umumnya kandungan agregat dalam beton?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6qAPfIMfdix" displaytext="Salah satu bahan bangunan yang sering digunakan untuk dinding adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6Ay6JWcHEL9" displaytext="Berapa ukuran agregat kasar untuk campuran beton? Biasanya lebih dari…" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.62uYvHcChlT" displaytext="Bagaimana agregat kasar yang baik untuk beton?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6mhuJyqJ1sV" displaytext="Apa fungsi bekisting pada beton?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6WSjtAs4IBU" displaytext="Apa pekerjaan yang biasa menggunakan bahan PVC? " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5koawSZqjXg" displaytext="Apa sebutan campuran pasir dan batu kecil?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5VIu3JdGpty" displaytext="Bagaimana jika kadar lumpur pada agregat lebih dari 1%? " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6r2Bipkf9hI" displaytext="Apa bahan pengisi dalam pembuatan beton?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6G7u55DoU1O" displaytext="Berapa mutu beton kelas II yang benar?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6dATgjr3bHj" displaytext="Kenapa jumlah air dalam campuran beton terlalu banyak tidak dianjurkan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5lZaAklUSrs" displaytext="Apa pekerjaan yang menggunakan mutu beton kelas I?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.61fDY0nIqFD" displaytext="Beton kelas III digunakan untuk pekerjaan struktural, Berapa kuat tekan karakteristik yang diberikan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5csgqjB0UDK" displaytext="Apa yang menjadi keuntungan beton bertulang?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6Af5A25dNCo" displaytext="Apa yang menjadi kelemahan beton bertulang?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.69MQXk6iS7u" displaytext="Apa tujuan dilakukan pekerjaan leveling dan pengukuran lapangan (uitzet) dalam konstruksi?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6jV1YD3ZDEo" displaytext="Apa yang menjadi dasar dalam melakukan pengukuran lapangan pada pekerjaan uitzet?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6lglpOm0OYR" displaytext="Apa fungsi bouwplank dalam pekerjaan pengukuran?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5pW2dS1V4QI" displaytext="Apa tujuan pekerjaan leveling pada konstruksi?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5jHnuH6hNEC" displaytext="Salah satu hal penting yang harus diperhatikan dalam pekerjaan pengukuran bangunan adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6UYA3XkL5U0" displaytext="Apa fungsi fondasi dalam sebuah bangunan? " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5mex8Dl9tZX" displaytext="Salah satu syarat konstruksi fondasi yang baik adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6RrbfcvXGhI" displaytext="Apa jenis fondasi yang biasa digunakan untuk bangunan satu lantai?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6OyJXiHFFzm" displaytext="Apa jenis fondasi yang digunakan untuk bangunan bertingkat?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5ZGy7z3aYT4" displaytext="Material yang digunakan untuk membuat fondasi sebaiknya..." expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6YhvEdM4eWv" displaytext="Sloof, kolom, dan balok merupakan bagian struktur bangunan apa?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5vSSsSk21hB" displaytext="Dimana posisi atau letak sloof dalam konstruksi bangunan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6OGsXRmlm9M" displaytext="Bagaimana bentuk kolom pada bangunan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5is5tKbIMaS" displaytext="Apa fungsi balok sebagai struktur bangunan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6fVbD5spdim" displaytext="Urutan struktur yang benar dari bawah ke atas pada bangunan adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5yQYnMeqbWH" displaytext="Apa salah satu fungsi utama dinding dalam bangunan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5xFb74yRlzy" displaytext="Berikut ini yang termasuk bahan yang dapat digunakan untuk membuat dinding adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.680XV7KmcpI" displaytext="Dinding juga memiliki fungsi dalam aspek estetika bangunan, yaitu… " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5vzmeRGgOCq" displaytext="Apa bahan yang digunakan untuk pembangunan dinding selain bata merah?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6K6scdc0332" displaytext="Dinding melindungi bagian dalam bangunan dari apa?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6hK3Alb4Fs2" displaytext="Kenapa dinding yang sudah selesai dipasang perlu dilapisi dengan adukan spesi?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6m8gcofdNKG" displaytext="Berapa tinggi bidang dinding bagian bawah yang langsung berkaitan dengan tanah biasanya diplester kedap air?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5nB3nUswmS7" displaytext="Berapa perbandingan campuran adukan plesteran untuk bagian atas dan tengah dinding?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.68vwbASxO7W" displaytext="Apa tujuan pengerjaan acian dilakukan setelah plesteran?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6a1QRQHhNsE" displaytext="Apa yang dimaksud dengan reretakan kecil yang muncul secara alami setelah acian mengering?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5mtdJEyWi9p" displaytext="Pemasangan lantai biasanya dilakukan setelah pekerjaan berikut selesai, yaitu…" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6Rgj5VIIRA9" displaytext="Apa pekerjaan bagian bawah yang harus selesai sebelum pemasangan lantai?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5erKoeoBOoa" displaytext="Apa yang perlu dilakukan pada permukaan dasar tanah sebelum pemasangan lantai?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6ekNd2eoXGQ" displaytext="Material yang biasanya digunakan sebagai bahan urukan adalah " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.66wbpA6YDyx" displaytext="Berapa ketebalan urukan yang digunakan sebelum pemasangan lantai?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6j6dDWdEiyn" displaytext="Apa fungsi kusen dalam konstruksi bangunan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5wifR3Z2svY" displaytext="Apa istilah yang sering digunakan dalam penyebutan kusen?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5u0YqIbt63Q" displaytext="Apa bagian pintu yang dipasang permanen di dalam tembok?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6pWG0kv1Lbf" displaytext="Apa yang digunakan agar daun pintu dapat berputar ke kanan atau ke kiri?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6i9WzosZnVR" displaytext="Dimana posisi daun pintu saat ditutup menempel?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6l1qi1gBmYa" displaytext="Apa fungsi atap pada bangunan rumah?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5vDZXcjahXR" displaytext="Apa saja komponen atap pada bangunan rumah?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6b3Ge9jDfLT" displaytext="Berikut ini yang termasuk bagian dari rangka atap adalah " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5ybfH2hXYmk" displaytext="Apa saja yang merupakan bahan rangka atap?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6ZHNmZGLRq8" displaytext="Apa bagian atap yang berfungsi menutup rangka atap?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5tl2nEAuGh1" displaytext="Apa salah satu fungsi plafon dalam konstruksi bangunan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6LgfIGvAsHQ" displaytext="Apa fungsi plafon selain sebagai pelindung dari panas dan dingin?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6HdcTH2AZP2" displaytext="Apa bagian plafon yang berfungsi untuk menggantungkan atau menopang plafon?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6dzIlH6x405" displaytext="Apa material yang umum digunakan sebagai rangka plafon?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6FMMjfw549Y" displaytext="Apa bahan penutup plafon yang dianggap murah dan mudah perawatannya?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.64rHeoFLZA7" displaytext="Kapan pekerjaan cat dalam pembangunan rumah dilakukan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5m2lQrQgnsP" displaytext="Apa tujuan utama pekerjaan cat?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5qxkNv9mdhp" displaytext="Kapan pekerjaan cat dilakukan? Setelah pemasangan…" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5gNxfMEOzog" displaytext="Apa fungsi cat selain melindungi?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5m47pVyYaqZ" displaytext="Salah satu bagian bangunan yang dicat adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5xROqaePM60" displaytext="Pekerjaan instalasi pipa meliputi instalasi berikut, kecuali …" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6iKlAZQhO6e" displaytext="Apa bahan yang digunakan dalam instalasi pipa?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6NHhOiuqRJt" displaytext="Bagaimana cara penyambungan pipa pvc?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5c4BWXrNPYQ" displaytext="Fungsi seal tape pada sambungan pipa adalah " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5WPvqlh2Mbg" displaytext="Apa fungsi reducer socket pada instalasi pipa?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6MWyfPc0Xjx" displaytext="Apa syarat yang harus dipenuhi saat instalasi listrik?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6kYohFiY5q6" displaytext="Apa fungsi utama instalasi listrik dalam bangunan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5WxHRV1g4yE" displaytext="Salah satu syarat instalasi listrik yang aman adalah " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6i4RlxRNgo4" displaytext="Peralatan listrik yang digunakan sebaiknya memiliki standar " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5hIJKdAizOx" displaytext="Apa fungsi Earth Leakage Circuit Breaker (elcb)?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.635D2Lmqyad" displaytext="Apa material yang digunakan untuk membangun rumah?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6BhAnlYgceb" displaytext="Seorang pekerja salah dalam melakukan pengukuran awal (uitzet). Dampak paling logis adalah " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6i7csugE0eb" displaytext="Apa dampak utama pada bangunan, jika sloof tidak dikerjakan dengan baik?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6A1uM7eK2JY" displaytext="Apa kategori yang cocok untuk pekerjaan kolom dan balok?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5fOqz7dp2gh" displaytext="Mengapa pekerjaan fondasi harus dilakukan sebelum pekerjaan lainnya?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5wmScrVT49r" displaytext="Apa risiko yang terjadi, jika pekerjaan dinding dilakukan sebelum struktur beton selesai?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6CINzKajYbb" displaytext="Apa fungsi utama plesteran dan acian?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5YKkCKXxvCH" displaytext="Apa kemungkinan yang terjadi, jika instalasi pipa dilakukan setelah finishing dinding?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5lq1C1kJmb3" displaytext="Urutan pekerjaan yang benar dalam konstruksi adalah " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5bBsyF2tEke" displaytext="Pekerjaan atap tidak dilakukan dengan baik, dampak langsungnya adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5wVuRX7jETq" displaytext="Apa penyebab pekerjaan kusen yang tidak presisi?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.686pgMC6IcX" displaytext="Apa fungsi utama pekerjaan lantai?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5ogn24q68uD" displaytext="Risiko terbesar dalam pekerjaan listrik tidak sesuai standar adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.60WWylszlcg" displaytext="Dimana instalasi penangkal petir diperlukan terutama pada bangunan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6kMmHB0XiMm" displaytext="Mengapa pekerjaan struktur harus lebih diprioritaskan dibanding finishing?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6eBwbVH0OIq" displaytext="Apa penyebab kesalahan pada pekerjaan leveling?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6hyBN9PlTEg" displaytext="Kemungkinan yang terjadi, jika pekerjaan plafon dilakukan sebelum atap selesai adalah " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6hHDRwJ6cBg" displaytext="Kapan pekerjaan instalasi listrik dan pipa sebaiknya dilakukan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6GO2IogbGRz" displaytext="Terjadinya retak pada dinding setelah beberapa waktu, kemungkinan penyebabnya adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6pSKNOwpUSU" displaytext="Apa dampak paling logis, apabila seorang kontraktor mengabaikan urutan pekerjaan konstruksi?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6PFN3gmOXXI" displaytext="Seorang lulusan SMK Teknik Konstruksi memiliki keterampilan menggambar bangunan menggunakan AutoCAD dan SketchUp. Ia ingin membuka usaha sendiri tanpa harus terjun langsung ke lapangan.&#xA;Peluang usaha yang paling sesuai adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5Ur84A7DMmN" displaytext="Ada suatu proyek pembangunan rumah, pemilik proyek membutuhkan tenaga tukang yang terampil dan berpengalaman dalam pekerjaan pasangan bata, plesteran, dan pemasangan keramik.&#xA;Peluang usaha yang dapat dikembangkan adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6E5I268ZG45" displaytext="Permintaan rumah ramah lingkungan meningkat karena masyarakat mulai peduli terhadap efisiensi energi dan kesehatan lingkungan.&#xA;Peluang usaha yang paling tepat dikembangkan adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5dSJaLXUooA" displaytext="Sebuah kontraktor kecil tidak mampu membeli excavator karena biaya investasi yang sangat besar. Oleh karena itu, kontraktor tersebut memilih menyewa alat saat dibutuhkan.&#xA;Kondisi tersebut menunjukkan adanya peluang usaha" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6UMQ42IdyNh" displaytext="Seorang lulusan SMK ingin sukses dalam dunia konstruksi. Selain memiliki keterampilan teknis, ia juga harus mampu berkomunikasi, bekerja sama, dan beradaptasi dengan lingkungan kerja.&#xA;Kemampuan tersebut termasuk" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6AqmHP0ErAA" displaytext="Pada suatu proyek pembangunan jembatan, tim perencana sedang membuat gambar detail struktur, menghitung kebutuhan tulangan, serta menyusun estimasi biaya secara rinci.&#xA;Tahap pekerjaan konstruksi apakah yang sedang dilakukan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6JwvUimBbwg" displaytext="Dalam pembangunan sebuah rumah sakit, kontraktor harus memastikan pekerjaan selesai tepat waktu, sesuai anggaran, dan memenuhi spesifikasi mutu yang telah ditetapkan.&#xA;Target utama yang harus dicapai kontraktor adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6d75KA7tGlz" displaytext="Pemerintah membangun jalan tol yang menghubungkan beberapa kota. Proyek tersebut memiliki lokasi yang panjang, luas, dan berfungsi mendukung kegiatan ekonomi masyarakat.&#xA;Jenis bangunan tersebut termasuk" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6FmLl2jWs2N" displaytext="Setelah proyek gedung selesai dibangun, kontraktor menyerahkan gambar yang menunjukkan kondisi bangunan sebenarnya sesuai hasil pekerjaan di lapangan.&#xA;Dokumen yang dimaksud adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5nP1azJEkhO" displaytext="Pemilik proyek mengadakan pertemuan dengan konsultan perencana untuk menjelaskan tujuan pembangunan, kebutuhan ruang, dan anggaran yang tersedia agar perencana dapat memahami keinginan pemilik.&#xA;Kegiatan tersebut disebut" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6MY5siYQ618" displaytext="6] SOAL JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6koQIiN38IS" displaytext="Sebuah kawasan terdiri atas puluhan rumah yang dilengkapi jalan lingkungan, saluran drainase, jaringan listrik, dan fasilitas umum lainnya&#xA;Apa yang dimaksud dari kawasan tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.67DEL0xHkUo" displaytext="Sebuah perusahaan pengembang mengalami kesulitan membangun perumahan karena harga tanah semakin mahal dan lahan kosong semakin sedikit&#xA;Kendala pembangunan yang dihadapi adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5lFKmdqKXVY" displaytext="Seorang pengembang telah memiliki lahan dan desain perumahan, tetapi belum dapat memulai pembangunan karena belum mendapatkan izin mendirikan bangunan&#xA;Jenis perizinan yang belum dimiliki adalah " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6Pb7c0OgVJx" displaytext="Perumahan dirancang agar setiap rumah memperoleh pencahayaan alami yang cukup, sirkulasi udara yang baik, dan ketersediaan air bersih&#xA;Apa aspek yang diperhatikan pada perencanaan tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6gpDXBSDG6u" displaytext="Beberapa rumah dibangun secara berjejer dan saling menempel satu sama lain dalam satu kesatuan lingkungan&#xA;Jenis rumah tersebut adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5WBJD77z7Q2" displaytext="6] SOAL JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5pDUT0Ezsl5" displaytext="Seorang arsitek merancang sebuah bangunan dengan mempertimbangkan dampak lingkungan mulai dari tahap perencanaan, pembangunan, penggunaan, hingga pembongkaran bangunan&#xA;Apa prinsip yang diterapkan oleh arsitek?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5aMq9CWUgl7" displaytext="Dalam pembangunan rumah, kontraktor menggunakan kayu yang berasal dari hutan yang dikelola secara berkelanjutan dan telah memiliki sertifikasi legalitas&#xA;Apa yang menunjukkan penerapan aspek tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5xClvK3ivwj" displaytext="Pemilik rumah memasang panel surya untuk memenuhi sebagian kebutuhan listrik rumah tangga. Dikarenakan listrik sering terjadi pemadaman dari pihak PLN.&#xA;Apa sumber energi yang dimanfaatkan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5xyYXCk9CHt" displaytext="Sebuah bangunan memiliki jendela yang besar dan penataan ruang yang memungkinkan cahaya matahari masuk secara optimal pada siang hari&#xA;Tujuan utama dari desain tersebut adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6YDLtCFnbJ1" displaytext="Seorang pengembang ingin menerapkan konsep sustainable building. Ia mempertimbangkan dampak bangunan terhadap lingkungan, biaya operasional jangka panjang, dan kenyamanan masyarakat&#xA;Faktor yang harus diperhatikan adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6YyTwGUNfjx" displaytext="6] SOAL JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6aHWqu0Dzqw" displaytext="Kebutuhan rumah tinggal di Indonesia terus meningkat seiring dengan pertumbuhan jumlah penduduk. Kondisi tersebut menyebabkan sektor konstruksi perumahan memiliki prospek yang baik untuk dikembangkan&#xA;Peluang bisnis yang paling tepat berdasarkan kondisi tersebut adalah " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6OkpClRKGHm" displaytext="Seorang lulusan SMK Teknik Konstruksi dan Perumahan memiliki kemampuan menggambar bangunan atau desain. Ia ingin memanfaatkan kemampuannya untuk membuka usaha mandiri&#xA;Apa usaha yang paling sesuai?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6L3luSz50sB" displaytext="Sebuah perusahaan membangun kawasan perumahan lengkap dengan jalan, drainase, dan fasilitas umum lainnya. Perusahaan tersebut bertanggung jawab mulai dari perencanaan hingga pemasaran rumah&#xA;Apa perusahaan yang dimaksud tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5weCjoBJUME" displaytext="Sebelum membangun perumahan, pengembang melakukan survei lokasi dan menghitung biaya yang diperlukan. Kegiatan ini bertujuan agar proyek dapat berjalan sesuai target&#xA;Apa tahapan pembangunan tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6fUCiLTU4uG" displaytext="Dalam pembangunan perumahan, kontraktor dipilih melalui proses seleksi berdasarkan kemampuan dan pengalaman kerja. Proses ini dilakukan agar proyek ditangani oleh pihak yang kompeten.&#xA;Apa tahapan pembangunan tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6HknS3s4Qk4" displaytext="Pembangunan perumahan dapat meningkatkan pendapatan daerah melalui pajak dan retribusi. Selain itu, pembangunan juga dapat membuka lapangan pekerjaan baru&#xA;Manfaat pembangunan perumahan bagi daerah adalah " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5tFCSqb54GF" displaytext="Setiap rumah dalam suatu perumahan dirancang memiliki ventilasi dan pencahayaan yang cukup. Hal ini dilakukan untuk menjaga kenyamanan dan kesehatan penghuni&#xA;Apa aspek yang perlu diperhatikan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5XnU37aWpin" displaytext="Sebelum proyek dimulai, pengembang mengurus izin mendirikan bangunan dan berbagai dokumen lainnya. Tujuannya agar pembangunan sesuai dengan peraturan yang berlaku&#xA;Aspek yang diperhatikan adalah " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6HDQyLFbuUA" displaytext="Sebuah kawasan perumahan dilengkapi jalan lingkungan, jaringan listrik, dan saluran drainase. Fasilitas tersebut dibuat untuk menunjang aktivitas penghuni&#xA;Apa fasilitas yang dimaksud tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5z5CaQnntcC" displaytext="Dua rumah dibangun berdampingan dan memiliki satu dinding yang saling menyatu. Masing-masing rumah tetap memiliki kavling tersendiri&#xA;Apa jenis rumah tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6Op5HfcfS20" displaytext="Beberapa rumah dibangun berjajar dan saling menempel satu sama lain dalam satu kawasan. Setiap unit tetap memiliki kepemilikan yang berbeda&#xA;Jenis rumah tersebut adalah " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6raXXOISRAW" displaytext="Sebelum menentukan lokasi pembangunan, pengembang mempertimbangkan kondisi tanah dan akses transportasi. Tujuannya agar kawasan tersebut nyaman untuk dihuni&#xA;Apa kegiatan dalam pembangunan tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5jYthidFQE2" displaytext="Penggunaan material daur ulang semakin banyak diterapkan dalam pembangunan perumahan. Langkah ini dilakukan untuk mengurangi dampak negatif terhadap lingkungan.&#xA;Apa konsep yang diterapkan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6f9Z6sNZKx2" displaytext="Kontraktor menggunakan material sesuai kebutuhan agar tidak terjadi pemborosan selama pembangunan. Material sisa juga dimanfaatkan kembali untuk pekerjaan lain&#xA;Apa prinsip yang diterapkan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6T5wjAm1auO" displaytext="Pembangunan perumahan tidak hanya memperhatikan keuntungan ekonomi, tetapi juga dampak sosial dan lingkungan. Ketiga aspek tersebut harus berjalan secara seimbang&#xA;Apa konsep yang dimaksud tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6n3tVRy8P61" displaytext="Pembangunan perumahan menyebabkan kebutuhan material seperti semen, pasir, dan baja ringan meningkat. Kondisi ini memberikan peluang usaha bagi masyarakat sekitar&#xA;Usaha yang paling sesuai adalah " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6nBCyngMIfm" displaytext="Dalam pembangunan perumahan, kontraktor harus menyelesaikan pekerjaan sesuai mutu, biaya, dan waktu yang telah disepakati. Ketiga aspek tersebut menjadi ukuran keberhasilan proyek&#xA;Ketiga aspek tersebut dikenal sebagai ..." expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6QEqMUPcFqb" displaytext="Lulusan SMK tidak hanya dituntut memiliki keterampilan teknis, tetapi juga kemampuan berkomunikasi dan bekerja sama. Kemampuan tersebut sangat dibutuhkan di dunia konstruksi&#xA;Kemampuan yang dimaksud adalah " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5VvYqx1ceEn" displaytext="Sebuah perusahaan melakukan studi kelayakan sebelum memulai pembangunan perumahan. Hasil studi menunjukkan proyek tersebut menguntungkan dan layak dilaksanakan&#xA;Tujuan studi kelayakan adalah " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6PQUm0LSqxy" displaytext="Meningkatnya kebutuhan hunian membuat banyak perusahaan tertarik berinvestasi di sektor perumahan. Kondisi ini menunjukkan bahwa bisnis konstruksi perumahan memiliki prospek yang baik di masa depan&#xA;Apa alasan utama berkembangnya bisnis konstruksi perumahan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6UvokUudqbq" displaytext="6] SOAL JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5YSaFfwPTyQ" displaytext="Seorang operator alat berat bekerja tanpa memperhatikan prosedur keselamatan sehingga menimbulkan kecelakaan yang merugikan dirinya dan rekan kerja&#xA;Apa tujuan penerapan K3LH?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5wxX9BDcNa9" displaytext="Manajemen proyek mengadakan pelatihan keselamatan kerja sebelum proyek dimulai agar seluruh pekerja memahami risiko pekerjaan yang akan dilakukan&#xA;Tujuan kegiatan tersebut adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6CSawAxgiV0" displaytext="Seorang pekerja yang sakit mendapatkan pemeriksaan kesehatan dan perawatan dari perusahaan tempatnya bekerja&#xA;Apa fokus K3 dalam tindakan tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6q2uD18czCy" displaytext="Dalam suatu proyek, pekerja diwajibkan mematuhi prosedur keselamatan. Pelanggaran terhadap aturan tersebut dapat dikenakan sanksi sesuai ketentuan perusahaan&#xA;Apa tujuan pemberian sanksi?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6AQGriyPBV8" displaytext="Seorang pekerja mengabaikan penggunaan alat pelindung diri (APD) karena merasa pekerjaannya hanya berlangsung sebentar&#xA;Mengapa sikap tersebut tidak tepat?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6Ob2fuGJBJc" displaytext="6] SOAL JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6TZSXT9Xujk" displaytext="Keinginan menyelesaikan pekerjaan lebih cepat, seorang pekerja mengabaikan prosedur kerja yang telah ditetapkan dan akhirnya mengalami cedera&#xA;Apa faktor yang mencerminkan peristiwa tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5htIRSATvHV" displaytext="Seorang pekerja melakukan pekerjaan pengecoran selama berjam-jam tanpa istirahat yang cukup sehingga kehilangan konsentrasi dan mengalami kecelakaan kerja&#xA;Penyebab utama kecelakaan tersebut adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6aWYHcJj5kX" displaytext="Sebuah mesin pengangkat material tidak pernah dilakukan perawatan secara berkala. Saat digunakan, mesin tersebut mengalami kerusakan dan menyebabkan kecelakaan&#xA;Apa penyebab utama kecelakaan tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5dCnWYGkmX6" displaytext="Pekerja baru di proyek tidak pernah mendapatkan pelatihan keselamatan kerja sehingga sering melakukan kesalahan saat bekerja&#xA;Apa faktor kecelakaan kerja dengan kondisi tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6l1ylyNBsq4" displaytext="Mesin mixer beton mengalami kerusakan karena tidak pernah diperiksa sejak awal proyek. Saat digunakan, mesin tersebut berhenti mendadak dan membahayakan pekerja&#xA;Apa pencegahan kecelakaan tersebut yang dapat dilakukan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5ZL3ji0UjDB" displaytext="6] SOAL JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5y0afARCm5F" displaytext="Seorang pekerja mengalami cedera akibat tertimpa material bangunan. Perusahaan segera memberikan pengobatan dan jaminan kesehatan kepada pekerja tersebut&#xA;Tujuan K3 yang diterapkan adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6PSPSKeTW1C" displaytext="Sebuah pabrik memasang sistem ventilasi yang baik untuk mengurangi paparan debu dan zat berbahaya bagi pekerja&#xA;Tujuan K3 yang ingin dicapai adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.68mSxFRWvR1" displaytext="Penerapan K3 yang baik menyebabkan angka kecelakaan kerja menurun dan proses produksi berjalan lancar&#xA;Apa dampak yang paling mungkin terjadi?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6FTq9a1zwxX" displaytext="Petugas laboratorium menggunakan sarung tangan, masker, dan kacamata pelindung saat bekerja dengan bahan kimia&#xA;Apa tujuan K3 penerapan tersebut yang sesuai?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6a5ueWlXb0x" displaytext="Seorang pekerja tetap dipaksa bekerja meskipun mengalami gejala kelelahan berat sehingga akhirnya mengalami kecelakaan kerja&#xA;Mengapa tindakan tersebut bertentangan dengan tujuan K3?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6oz4tfCSgD9" displaytext="6] SOAL JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5cJh16rA2A4" displaytext="Pada proyek konstruksi dilakukan pemeriksaan rutin terhadap kondisi peralatan dan area kerja untuk mencegah terjadinya kecelakaan&#xA;Apa upaya pada kegiatan tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6aiNi7KUlpK" displaytext="Di setiap lantai gedung yang sedang dibangun dipasang petunjuk arah menuju tangga darurat dan titik kumpul evakuasi&#xA;Ketentuan K3LH yang diterapkan adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6AxaSuPK4kd" displaytext="Seorang pekerja mengalami cedera akibat terjatuh dari tangga. Tim K3 segera memberikan pertolongan pertama sebelum dibawa ke fasilitas kesehatan&#xA;Ketentuan K3LH yang diterapkan adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6rCTeNey17p" displaytext="Seorang mandor memastikan seluruh pekerja memahami prosedur kerja sebelum memulai aktivitas konstruksi&#xA;Syarat K3LH yang sedang diterapkan adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5WGHHX47Qjw" displaytext="Upaya mengurangi risiko gangguan pernapasan, perusahaan menyediakan masker dan melakukan penyemprotan air pada area yang berdebu&#xA;Apa upaya yang dapat dilakukan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6qJ13qEeuGy" displaytext="6] SOAL JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6PHNrxpz9Rl" displaytext="Seorang pengawas proyek melakukan inspeksi dan menemukan pekerja menggunakan helm, safety shoes, rompi reflektif, sarung tangan, dan safety belt saat bekerja di ketinggian&#xA;Apa tujuan penggunaan APD secara lengkap tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5fg7jT7d98w" displaytext="Seorang pekerja sedang memotong besi menggunakan gerinda tangan. Selama pekerjaan berlangsung, banyak percikan logam yang berpotensi mengenai mata&#xA;Apa APD yang paling tepat digunakan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5hhRjcPghxe" displaytext="Pada saat pekerjaan pembobokan dinding beton, debu beterbangan dan berisiko masuk ke saluran pernapasan pekerja&#xA;APD yang harus digunakan adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6V04bzIT99T" displaytext="Pekerjaan mengangkat material baja, seorang pekerja tidak menggunakan sepatu keselamatan sehingga kakinya terluka akibat tertimpa benda berat&#xA;Apa APD yang seharusnya digunakan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5zeRsQJyWYe" displaytext="Pada saat pekerjaan pembesian, pekerja sering bersentuhan dengan ujung besi yang tajam sehingga berisiko mengalami luka lecet dan goresan.&#xA;APD yang paling sesuai adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5XnM8DsUjVV" displaytext="6] SOAL JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5dpJCGbB9mN" displaytext="Terdapat rambu berwarna kuning di dekat mesin pemotong baja. Hal ini menunjukkan bahwa pekerja harus selalu hati-hati&#xA;Apa yang mengartikan rambu warna tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6W2SlAdGVLu" displaytext="Saat terjadi keadaan darurat, pekerja diarahkan menuju titik kumpul melalui petunjuk berwarna hijau&#xA;Apa makna warna hijau pada rambu tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6kigHOjofFn" displaytext="Ruang panel listrik terdapat tombol emergency stop yang ditandai dengan warna merah. Terkadang terdapat coretan warna merah pada rambu&#xA;Apa tujuan penggunaan warna merah pada rambu tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6ezrySybqRW" displaytext="Sebuah proyek memasang rambu berbentuk lingkaran yang bergambar masker pernapasan.&#xA;Instruksi yang diberikan oleh rambu tersebut adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6g9VE6Jq7dr" displaytext="Seorang pengawas proyek menemukan bahwa pekerja tidak memahami arti warna rambu K3 yang ada di lokasi kerja.&#xA;Dampak yang paling mungkin terjadi adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5bnHxICAEAX" displaytext="6] SOAL JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.67h5gDvpJhS" displaytext="Di bengkel konstruksi, semua alat kerja disusun pada rak yang telah diberi label sehingga mudah ditemukan saat dibutuhkan&#xA;Budaya kerja yang diterapkan adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5ZNXievM1cn" displaytext="Seorang siswa SMK selalu membersihkan meja kerja dan peralatan praktik di bengkel jurusan setelah digunakan&#xA;Apa perilaku yang mencerminkan budaya tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5cbWhpHGYKp" displaytext="Sebuah perusahaan melakukan pemeriksaan dan pelumasan mesin secara berkala serta mencatatnya dalam kartu perawatan&#xA;Apa penerapan yang merupakan tindakan tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6g0kE5XqDFn" displaytext="Sebuah bengkel kerja menerapkan budaya 5R secara konsisten sehingga area kerja menjadi bersih, tertata, dan aman&#xA;Manfaat yang paling mungkin diperoleh adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5vZK1qagiyj" displaytext="Budaya kerja 5R di Indonesia berasal dari konsep 5S&#xA;Apa negara yang pertama kali menerapkan konsep tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5jubkxe2AvO" displaytext="6] SOAL JENIS PEKERJAAN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5Xc6WhRLkCH" displaytext="Seorang pekerja proyek selalu menggunakan APD lengkap sebelum memulai pekerjaan. Tindakan tersebut dilakukan untuk mengurangi risiko kecelakaan kerja&#xA;Apa tujuan utama penerapan K3?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6ZQvqs1L5Ru" displaytext="Sebuah proyek konstruksi terdapat banyak aktivitas yang menggunakan alat berat dan material berukuran besar. Kondisi tersebut dapat meningkatkan risiko kecelakaan kerja.&#xA;Mengapa penerapan K3 diperlukan? Karena …" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6qWf5qv1P2O" displaytext="Seorang pekerja mengalami cedera akibat tidak mengikuti prosedur kerja yang telah ditetapkan. Akibatnya pekerjaan menjadi terhambat dan perusahaan mengalami kerugian&#xA;Faktor penyebab kecelakaan tersebut adalah " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6P4ZvE6NJRL" displaytext="Sebuah perusahaan secara rutin memberikan pelatihan keselamatan kepada seluruh pekerja. Kegiatan tersebut bertujuan agar pekerja memahami cara bekerja yang aman.&#xA;Apa syarat penerapan K3LH yang dilakukan perusahaan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6RmfrYjqGMy" displaytext="Di area proyek tersedia jalur evakuasi yang jelas dan mudah diakses saat keadaan darurat. Fasilitas tersebut dibuat untuk mengantisipasi kemungkinan kecelakaan kerja&#xA;Apa upaya yang termasuk ketentuan K3 tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6Hnuv43oWSy" displaytext="Pekerja proyek diwajibkan menjaga kebersihan lingkungan kerja dan membuang sampah pada tempatnya. Langkah tersebut bertujuan menciptakan lingkungan kerja yang sehat&#xA;Apa upaya yang termasuk ketentuan K3 tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6EVKBlVD6HS" displaytext="Pekerjaan pengelasan sering terjadi percikan api dan serpihan logam yang dapat membahayakan mata. Oleh karena itu pekerja harus menggunakan pelindung khusus&#xA;APD yang digunakan adalah " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6ZBiz85THRz" displaytext="Pekerja sedang melakukan pemasangan rangka atap pada ketinggian tertentu. Risiko utama pekerjaan tersebut adalah terjatuh dari atas bangunan.&#xA;APD yang wajib digunakan adalah " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6LIXtjPptNw" displaytext="Seorang pekerja mengangkat material berat yang memiliki sudut tajam. Untuk menghindari luka pada tangan, ia harus menggunakan APD yang sesuai&#xA;APD yang wajib digunakan adalah " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.67UQFTa7ZX8" displaytext="Pekerjaan konstruksi dilakukan pada malam hari sehingga jarak pandang menjadi terbatas. Untuk meningkatkan visibilitas pekerja digunakan APD yang memiliki reflektor cahaya&#xA;APD yang wajib digunakan adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6QSKPYrNldI" displaytext="Sebuah rambu berwarna merah dipasang di dekat alat pemadam kebakaran. Warna tersebut digunakan untuk menunjukkan adanya kondisi tertentu&#xA;Apa arti warna merah pada rambu K3?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6Jj5DPbUKyx" displaytext="Kotak P3K ditempatkan pada lokasi yang diberi tanda berwarna hijau. Warna tersebut membantu pekerja menemukan fasilitas keselamatan dengan cepat&#xA;Apa arti warna hijau pada rambu K3?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5p3QADmiJzW" displaytext="Pada pintu masuk proyek terdapat rambu berbentuk lingkaran yang berisi gambar helm keselamatan. Rambu tersebut menunjukkan tindakan yang wajib dilakukan pekerja&#xA;Apa arti bentuk lingkaran pada rambu K3?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5h4bIaV3QCU" displaytext="Laboratorium bahan bangunan terdapat rambu berbentuk segitiga dengan simbol bahan korosif. Rambu tersebut dipasang agar pekerja lebih waspada terhadap bahaya&#xA;Apa arti bentuk segitiga tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5XVOpRmr1m2" displaytext="Bengkel kerja terdapat banyak barang yang sudah tidak digunakan lagi. Barang-barang tersebut kemudian dipisahkan dan disingkirkan dari area kerja&#xA;Apa yang mencerminkan budaya pada tindakan tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5YFL4IzBJLe" displaytext="Setelah pekerjaan selesai, seluruh pekerja membersihkan alat dan area kerja sebelum pulang. Kebiasaan tersebut membuat lingkungan kerja tetap nyaman&#xA;Budaya kerja yang diterapkan adalah " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6ENfrGY7wbs" displaytext="Mesin pemotong besi diperiksa dan dirawat secara berkala sesuai petunjuk penggunaan. Tujuannya agar mesin tetap berfungsi dengan baik dan berumur panjang.&#xA;Budaya kerja yang diterapkan adalah " expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5o1bPr95kwt" displaytext="Perusahaan menerapkan budaya kerja 5R secara konsisten di seluruh area kerja. Akibatnya produktivitas meningkat dan kecelakaan kerja dapat ditekan.&#xA;Apa manfaat utama budaya kerja 5R?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5zX7SMfUNgd" displaytext="Dalam dunia industri, keterampilan teknis dapat dilatih oleh perusahaan melalui berbagai pelatihan kerja. Namun karakter dan sikap kerja memerlukan pembiasaan sejak dini&#xA;Pernyataan tersebut menunjukkan pentingnya …" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5y5WwAmodbI" displaytext="Perusahaan menyediakan APD lengkap dan fasilitas kesehatan bagi seluruh pekerja. Langkah tersebut dilakukan untuk meningkatkan kesejahteraan dan produktivitas kerja.&#xA;Apa tujuan K3 yang ingin dicapai?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6Lamudc3Z4a" displaytext="Pilihlah penjelasan yang benar terkait pembagian kelas beton" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5uGNUXuhkQ9" displaytext="Pilihlah penjelasan yang benar terkait keuntungan beton" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6YgYhf1UoEd" displaytext="Pilihlah penjelasan yang benar terkait kelemahan beton" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5sYXHsdTM1J" displaytext="Perbandingan campuran beton yang umum digunakan untuk rumah sederhana adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5rnAKM9QFZ5" displaytext="Bagaimana jika jumlah air dalam campuran beton terlalu banyak?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6dIB9sQGqS0" displaytext="Beton kelas III digunakan untuk pekerjaan struktural. Berapa kuat tekan karakteristik yang diberikan?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.62SeceAg3S0" displaytext="Pilihlah fungsi yang benar terkait penggunaan genteng pada bangunan" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6hQpD2Jsds0" displaytext="Pilihlah penjelasan yang benar terkait pengeringan dan pengawetan pada kayu" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5h6fdnkvY8T" displaytext="Pilihlah fungsi yang benar terkait penggunaan bahan bangunan baja." expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6pLs86AjA2s" displaytext="Alternatif material pengganti batu bata yang lebih hemat biaya adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.5eG1gd5G5MR" displaytext="Salah satu keunggulan bata ringan dibandingkan batu bata dan batako adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6oVaCGyxE72" displaytext="Apa bahan dasar utama pembuatan keramik?" expand="false" type="slide" />
+            <slidelink slideid="_player.5qPq7lWhi6R.6qbIUzH3K8Y" displaytext="Cocokan pengertian setiap bahan bangunan dibawah dengan benar!" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6S1A380H1YF" displaytext="PROFIL SISWA DAN NILAI" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6S1A380H1YF.6P1P4mnfksB" displaytext="5] NILAI QUIZ" expand="false" type="slide" />
+            <slidelink slideid="_player.6S1A380H1YF.5hpiWc68dR5" displaytext="5] NILAI QUIZ" expand="false" type="slide" />
+            <slidelink slideid="_player.6S1A380H1YF.6aS4EKnvDlN" displaytext="5] NILAI QUIZ" expand="false" type="slide" />
+            <slidelink slideid="_player.6S1A380H1YF.6Nq5abZMek0" displaytext="5] NILAI QUIZ" expand="false" type="slide" />
+            <slidelink slideid="_player.6S1A380H1YF.6eFQgKD6BrN" displaytext="5] NILAI QUIZ" expand="false" type="slide" />
+            <slidelink slideid="_player.6S1A380H1YF.6mlC7j5Ce6H" displaytext="5] NILAI QUIZ" expand="false" type="slide" />
+            <slidelink slideid="_player.6S1A380H1YF.6HmdvlUn1JP" displaytext="5] NILAI SOAL" expand="false" type="slide" />
+            <slidelink slideid="_player.6S1A380H1YF.6qtLpeleJOi" displaytext="5] NILAI SOAL" expand="false" type="slide" />
+            <slidelink slideid="_player.6S1A380H1YF.6eETRANuJKD" displaytext="5] NILAI SOAL" expand="false" type="slide" />
+            <slidelink slideid="_player.6S1A380H1YF.67bRLCYkIGJ" displaytext="5] NILAI SOAL" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
